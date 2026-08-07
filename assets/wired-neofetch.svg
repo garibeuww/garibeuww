@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="720" viewBox="0 0 1400 720">
+  <defs>
+    <clipPath id="terminal-clip">
+      <rect x="1" y="1" width="1398" height="718" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <!-- terminal -->
+  <rect width="1400" height="720" rx="9" fill="#080b0c"/>
+  <rect x="1" y="1" width="1398" height="718" rx="8" fill="none" stroke="#374047" stroke-width="2"/>
+  <rect x="1" y="1" width="1398" height="42" rx="8" fill="#111619"/>
+  <rect x="1" y="35" width="1398" height="8" fill="#111619"/>
+  <line x1="1" y1="43" x2="1399" y2="43" stroke="#374047" stroke-width="1"/>
+
+  <!-- title bar estilo terminal, sem botões coloridos -->
+  <text x="20" y="27" fill="#9aa4aa" font-family="Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="14">[garibeuww@arch ~] — fastfetch</text>
+  <text x="1368" y="27" text-anchor="end" fill="#667077" font-family="Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="14">─  □  ×</text>
+
+  <!-- comando -->
+  <text x="24" y="70" fill="#73daca" font-family="Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="14">[garibeuww@arch ~]$</text>
+  <text x="207" y="70" fill="#c8d0d5" font-family="Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="14">fastfetch --logo lain</text>
+
+  <!-- ASCII embutida: não depende de imagens externas -->
+  <g clip-path="url(#terminal-clip)" fill="#87969d"
+     font-family="Consolas, 'Liberation Mono', 'Courier New', monospace"
+     font-size="42" xml:space="preserve">
+    <text x="250" y="300">==.   .==</text>
+    <text x="250" y="355">`==`o'=='</text>
+    <text x="250" y="410">   (|)</text>
+    <text x="250" y="465">    8</text>
+  </g>
+
+  <text x="338" y="684" text-anchor="middle" fill="#506067"
+        font-family="Consolas, 'Liberation Mono', 'Courier New', monospace"
+        font-size="14">[ wired protocol active ]</text>
+
+  <!-- separador -->
+  <line x1="680" y1="91" x2="680" y2="684" stroke="#2e383d" stroke-width="1"/>
+
+  <!-- fastfetch -->
+  <g font-family="Consolas, 'Liberation Mono', 'Courier New', monospace">
+    <text x="724" y="112" fill="#73daca" font-size="20" font-weight="700">garibeuww</text>
+    <text x="836" y="112" fill="#667077" font-size="20">@</text>
+    <text x="856" y="112" fill="#73daca" font-size="20" font-weight="700">wired</text>
+    <text x="724" y="136" fill="#465158" font-size="15">────────────────────────────────────────────</text>
+
+    <g font-size="16">
+      <text x="724" y="174" fill="#73daca">OS</text>
+      <text x="864" y="174" fill="#c8d0d5">Arch Linux x86_64</text>
+
+      <text x="724" y="204" fill="#73daca">Host</text>
+      <text x="864" y="204" fill="#c8d0d5">the_wired</text>
+
+      <text x="724" y="234" fill="#73daca">Kernel</text>
+      <text x="864" y="234" fill="#c8d0d5">6.12.10-arch1-1</text>
+
+      <text x="724" y="264" fill="#73daca">Shell</text>
+      <text x="864" y="264" fill="#c8d0d5">bash 5.2.37</text>
+
+      <text x="724" y="294" fill="#73daca">Terminal</text>
+      <text x="864" y="294" fill="#c8d0d5">wired-tty</text>
+    </g>
+
+    <text x="724" y="332" fill="#465158" font-size="15">├─ identity ────────────────────────────────</text>
+
+    <g font-size="16">
+      <text x="724" y="368" fill="#73daca">Role</text>
+      <text x="864" y="368" fill="#c8d0d5">Game developer /</text>
+      <text x="864" y="392" fill="#c8d0d5">cybersecurity enthusiast</text>
+
+      <text x="724" y="426" fill="#73daca">Focus</text>
+      <text x="864" y="426" fill="#c8d0d5">C++ · Graphics · Cybersecurity</text>
+
+      <text x="724" y="456" fill="#73daca">Status</text>
+      <text x="864" y="456" fill="#8b9499">sleeping</text>
+    </g>
+
+    <text x="724" y="494" fill="#465158" font-size="15">├─ languages ───────────────────────────────</text>
+
+    <g font-size="16">
+      <text x="724" y="530" fill="#73daca">Code.1</text>
+      <text x="864" y="530" fill="#c8d0d5">C · C++ · C#</text>
+
+      <text x="724" y="560" fill="#73daca">Code.2</text>
+      <text x="864" y="560" fill="#c8d0d5">Python · Java · Lua</text>
+
+      <text x="724" y="590" fill="#73daca">Code.3</text>
+      <text x="864" y="590" fill="#c8d0d5">JavaScript · HTML · CSS</text>
+
+      <text x="724" y="620" fill="#73daca">Spoken</text>
+      <text x="864" y="620" fill="#c8d0d5">Portuguese · English · Spanish</text>
+    </g>
+
+    <text x="724" y="656" fill="#465158" font-size="15">└─ contact ─────────────────────────────────</text>
+    <text x="724" y="687" fill="#73daca" font-size="16">Discord</text>
+    <text x="864" y="687" fill="#c8d0d5" font-size="16">garibeuw</text>
+  </g>
+</svg>
